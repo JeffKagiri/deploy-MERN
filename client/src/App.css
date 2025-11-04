@@ -1,0 +1,99 @@
+/* Body styles */
+body {
+  font-family: Arial;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* App container */
+.App {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 25px 30px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* Input field */
+input[type="text"] {
+  width: 70%;
+  padding: 12px;
+  margin-right: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Add button */
+button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0078d7;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #005a9e;
+}
+
+/* Task list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+/* Each task item */
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  background: #f9f9f9;
+  border-left: 5px solid #0078d7; /* Status indicator */
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+/* Completed task */
+li.completed {
+  border-left-color: #28a745;
+  background-color: #e6f4ea;
+}
+
+li:hover {
+  background-color: #f1f1f1;
+}
+
+/* Task title */
+li span {
+  cursor: pointer;
+  font-size: 16px;
+  flex: 1;
+}
+
+/* Delete button */
+li button {
+  padding: 6px 10px;
+  font-size: 14px;
+  background-color: #d9534f;
+  border-radius: 5px;
+}
+
+li button:hover {
+  background-color: #c9302c;
+}
